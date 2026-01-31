@@ -2,7 +2,7 @@ name: Rust
 
 on: [push, pull_request]
 ## we can nest the above on with push, or pull_requests, "-" notes an item in a list. 
-#we use branches to run on specified branches. 
+#we use branches to run on trigger
 env:
   CARGO_TERM_COLOR: always
 
